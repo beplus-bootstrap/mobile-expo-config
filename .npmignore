@@ -1,0 +1,15 @@
+dist/*.map
+src
+test
+# Rush
+.rush
+#
+.gitignore
+.npmignore
+tsconfig.json
+tsup.config.ts
+vite.config.ts
+# Logs
+*.log
+#
+*.tgz

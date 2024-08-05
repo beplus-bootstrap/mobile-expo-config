@@ -1,0 +1,35 @@
+{
+  "name": "@beplus-bootstrap/mobile-expo-config",
+  "version": "0.3.0",
+  "license": "https://beplus.cloud/license",
+  "author": {
+    "name": "Igor Lamos",
+    "email": "igor@be.plus",
+    "url": "https://beplus.cloud"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "clean": "run-p clean:*",
+    "clean:dist": "rimraf dist",
+    "build": "run-s build:*",
+    "build:clean": "npm run clean",
+    "build:ts": "tsup",
+    "prepare": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@expo/config-plugins": "8.0.8",
+    "expo": "51.0.24",
+    "xcode": "3.0.1"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "7.25.3",
+    "@types/node": "^20",
+    "esbuild": "0.23.0",
+    "npm-run-all": "4.1.5",
+    "rimraf": "6.0.1",
+    "tsup": "8.2.4",
+    "typescript": "5.5.4"
+  }  
+}
