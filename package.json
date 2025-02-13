@@ -19,17 +19,17 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@expo/config-plugins": "9.0.14",
-    "expo": "52.0.27",
+    "@expo/config-plugins": "9.0.15",
+    "expo": "52.0.33",
     "xcode": "3.0.1"
   },
   "devDependencies": {
-    "@babel/preset-env": "7.26.0",
+    "@babel/preset-env": "7.26.8",
     "@types/node": "^22",
-    "esbuild": "0.24.2",
+    "esbuild": "0.25.0",
     "npm-run-all": "4.1.5",
     "rimraf": "6.0.1",
-    "tsup": "8.3.5",
+    "tsup": "8.3.6",
     "typescript": "5.7.3"
   }  
 }
